@@ -1,4 +1,4 @@
-const socket = io('http://chat.local:3001')
+const socket = io('http://chat.local')
 const messageContainer = document.getElementById('message-container')
 const roomContainer = document.getElementById('room-container')
 const messageForm = document.getElementById('send-container')
